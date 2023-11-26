@@ -103,10 +103,11 @@ header, footer {
     padding: 3px;
     background: #F5F5F5;
     text-align: left;
+    font-weight:500;
 }
 
 .text-item-detail {
-    font-size: x-small;
+    font-size: small;
     padding: 3px;
     background: #F5F5F5;
     text-align: left;
@@ -122,8 +123,10 @@ header, footer {
     background: linear-gradient(90deg, rgba(194,252,234,1) 0%, rgba(2,95,235,1) 100%); */
     padding: 8px 0 8px 0;
     border-style: solid;
+    border-width: 1px;
     border-color: var(--primary-color);
     border-radius: 20px 20px 20px 20px;
+    
 }
 
 .item {
@@ -473,7 +476,7 @@ header, footer {
 }
 
 .objecgive-text-amount {
-    font-size: 24px;
+    font-size: 30px;
     font-weight: bold;
     color: var(--primary-color);
 }
