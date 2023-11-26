@@ -84,7 +84,7 @@ header, footer {
 .text-item {
     /*    color: var(--primary-color);*/
     color: black;
-    font-size: 16px;
+    font-size: 20px;
     padding: 3px;
     height: 30px
 }
@@ -96,6 +96,8 @@ header, footer {
     background: #F5F5F5;
     border-radius: 20px 20px 0px 0px;
     text-align: left;
+    font-size: 20px;
+    padding-top: 10px;
 }
 
 .text-item-unit {
@@ -107,7 +109,7 @@ header, footer {
 }
 
 .text-item-detail {
-    font-size: small;
+    font-size: 14px;
     padding: 3px;
     background: #F5F5F5;
     text-align: left;
@@ -498,12 +500,13 @@ header, footer {
 }
 .sticky-footer {
     position: fixed;
-    bottom: 10px;
+    bottom: 30px;
     width: 100%;
     height: 60px;
     background-color: white;
     border-style: solid;
-    border-color:  var(--primary-color);
+    border-color:  rgba(164, 175, 191, 0.3);
+    border-width: 1px;
 } 
 
 
