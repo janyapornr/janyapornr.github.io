@@ -520,3 +520,101 @@ header, footer {
     height: 70px;
     z-index: 99;
 }*/
+
+.main-description {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-block: 10px;
+    /* background: rgb(194,252,234);
+    background: linear-gradient(90deg, rgba(194,252,234,1) 0%, rgba(2,95,235,1) 100%); */
+    padding: 8px 0 8px 0;
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--primary-color);
+    border-radius: 10px;
+    background-color: var(--primary-color);
+    
+}
+
+.main-description-text {
+    color: white;
+    font-size: 14px;
+    padding: 3px;
+    text-align: left;
+}
+
+.main-item-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* margin-block: 10px; */
+    /* background: rgb(194,252,234);
+    background: linear-gradient(90deg, rgba(194,252,234,1) 0%, rgba(2,95,235,1) 100%); */
+    /* padding: 8px 0 8px 0; */
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--primary-color);
+    border-radius: 10px;
+    
+}
+
+.footer-description {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-block: 10px;
+    /* background: rgb(194,252,234);
+    background: linear-gradient(90deg, rgba(194,252,234,1) 0%, rgba(2,95,235,1) 100%); */
+    padding: 8px 0 8px 0;
+  
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--primary-color);
+    border-radius: 10px 10px 0px 0px;
+    background-color: var(--primary-color);
+}
+
+.footer-description-text {
+    color: white;
+    font-size: 14px;
+    padding: 3px;
+    text-align: left;
+}
+
+.footer-company {
+    background-color: #DADADA;
+    color: #464646;
+    border-width: 1px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.footer-company-text {
+    color: white;
+    font-size: 14px;
+    padding: 3px;
+    text-align: center;
+}
+
+.image-overlay {
+    position: relative;
+    display: inline-block;
+}
+.image-overlay .overlay-item {
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    transform: translate(-0%, -50%);
+    width: 100%;
+}
+
+.main-project-sumtotal{
+    background-color:  var(--primary-color);
+    border-radius: 20px;
+ 
+ }
+
+ .main-text-small {
+    font-size: 10px;
+    color: white;
+}
